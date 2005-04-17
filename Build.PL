@@ -8,8 +8,9 @@ my $builder = Module::Build->new(
     dist_author         => 'Sagar R. Shah <sagarshah@softhome.net>',
     dist_version_from   => 'lib/Probe/MachineInfo.pm',
     requires => {
-        'Test::More'       => 0,
+			  'Proc::Reliable'   => 0,
 				'POSIX'            => 0,
+        'Test::More'       => 0,
 				'Unix::Processors' => 0,
     },
     add_to_cleanup      => [ 'Probe-MachineInfo-*' ],

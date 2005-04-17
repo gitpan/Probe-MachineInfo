@@ -1,5 +1,7 @@
 Revision history for Probe-MachineInfo
 
+0.03    Added missing Proc::Reliable dependency to Build.PL
+
 0.02    Renamed from Config::MachineInfo to Probe::MachineInfo after
 				reading chatter on perl.qa a litle more closely
 
