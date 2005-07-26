@@ -13,6 +13,7 @@ my $builder = Module::Build->new(
         'Test::More'       => 0,
 				'Unix::Processors' => 0,
     },
+		sign                => 1, 
     add_to_cleanup      => [ 'Probe-MachineInfo-*' ],
 );
 

@@ -1,0 +1,41 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.38.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It would check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 8ddce5c6421d1b946cb20d17cd264fa5dec8b157 Build.PL
+SHA1 180b1bacbaf9dda9e67b74ab454b7c146f3797a9 Changes
+SHA1 7a09b35800f529356068a85bc2fc9430d6e2d8d6 MANIFEST
+SHA1 1d6d398fbacbf3f2a1cb47825c00905b54d002e7 META.yml
+SHA1 67298ebb545a2282aa53611e02ea6dda062dcfd5 README
+SHA1 b96bc40150f0e7275defddc29b163ee58446217d lib/Probe/MachineInfo.pm
+SHA1 1039a511f41e3920b4db50542c90e63823769c18 lib/Probe/MachineInfo/ClockSpeed.pm
+SHA1 10ee9d73092470502b2bf709074d05d5fc1ea44b lib/Probe/MachineInfo/Distribution.pm
+SHA1 503e9c67813659d5373aa377ea7153895ab4c574 lib/Probe/MachineInfo/Hostid.pm
+SHA1 3f00e6a1307b571c0d0a999d3165f5ac455463f4 lib/Probe/MachineInfo/Hostname.pm
+SHA1 89fc6e0e6bd35be9f2cef64d840cb3898bd58930 lib/Probe/MachineInfo/IpAddress/Linux.pm
+SHA1 446187cb002aee9a8d4fa592dbe4731c8e461adc lib/Probe/MachineInfo/KeepAlive/Linux.pm
+SHA1 c3c3a640cb8dfc566dd2e8874babc8dcd1d9f8ff lib/Probe/MachineInfo/Metric.pm
+SHA1 55be45c0fb70328a3b1d70fa1961243a94bfc3fa lib/Probe/MachineInfo/NumCPUs.pm
+SHA1 4b9b9f3c7bd89df7da6596ee74066e914e344c8c lib/Probe/MachineInfo/OS.pm
+SHA1 385acae9d8934f1d1245c5d8be32470207737593 lib/Probe/MachineInfo/SimpleMetric.pm
+SHA1 a95c97c926fa754f4049c7102d487fd5713b6ce8 lib/Probe/MachineInfo/Uptime.pm
+SHA1 a6a2aaa4d014e53d2103e7dcfb53c49c63cf9056 t/01_distribution.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.1 (GNU/Linux)
+
+iD8DBQFC5p+xbD1fM9M5ytIRArG4AKCzFgrbHrBPyhUoEFWyfV8DKtHmjwCffKyy
+ERbmyGpPGZAG9XXyUXZ/3GM=
+=zjJO
+-----END PGP SIGNATURE-----

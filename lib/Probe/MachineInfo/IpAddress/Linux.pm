@@ -1,6 +1,6 @@
 =head1 NAME
 
-Probe::MachineInfo::IpAddress - Host ID
+Probe::MachineInfo::IpAddress::Linux - Host ID
 
 =head1 SYNOPSIS
 

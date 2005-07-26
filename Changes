@@ -1,5 +1,10 @@
 Revision history for Probe-MachineInfo
 
+0.04    Minor documentation fix.
+        Thanks to Sébastien Aperghis-Tramoni (SAPER) for the spot
+
+				Sign the distribution
+
 0.03    Added missing Proc::Reliable dependency to Build.PL
 
 0.02    Renamed from Config::MachineInfo to Probe::MachineInfo after
