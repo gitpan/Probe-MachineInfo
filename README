@@ -1,31 +1,80 @@
-Probe-MachineInfo
+NAME
+    Probe::MachineInfo - The great new Probe::MachineInfo!
 
-The README is used to introduce the module and provide instructions on
-how to install the module, any machine dependencies it may have (for
-example C compilers and installed libraries) and any other information
-that should be provided before the module is installed.
+SYNOPSIS
+    Probe::MachineInfo aims to be a set of collector/probe classes which
+    allow the extraction of information about the configuration of a
+    machine. For example the number of CPUs it has and how much memory it
+    has.
 
-A README file is required for CPAN modules since CPAN extracts the README
-file from a module distribution so that people browsing the archive
-can use it get an idea of the modules uses. It is usually a good idea
-to provide version information here so that people can decide whether
-fixes for the module are worth downloading.
+    This release is really just a taster release of what's to come. The
+    architecture may change quite a lot. At the moment there is a bit of a
+    Unix bias because that's the type of operating system that I do almost
+    all of my real work on. However I also hope to add support for Windows
+    hosts at some earlyish stage.
+
+    Quick summary of what the module does.
+
+    Perhaps a little code snippet.
+
+        use Probe::MachineInfo;
+
+        my $foo = Probe::MachineInfo->new();
+        ...
 
 INSTALLATION
+    This module uses Module::Build for its installation. To install this
+    module type the following:
 
-To install this module, run the following commands:
+      perl Build.PL
+      ./Build
+      ./Build test
+      ./Build install
 
-    perl Makefile.PL
-    make
-    make test
-    make install
+    If you do not have Module::Build type:
 
+      perl Makefile.PL
 
-COPYRIGHT AND LICENCE
+    to fetch it. Or use CPAN or CPANPLUS and fetch it "manually".
 
-Put the correct copyright and licence information here.
+DEPENDENCIES
+    See the Build.PL for a list of dependencies
 
-Copyright (C) 2005 Sagar R. Shah
+TODO
+  General
+    *   Windows support
 
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.
+  Metric Probe Additions
+    *   NIS related information
+
+    *   Memory
+
+    *   Packages/Rpms installed
+
+    *   Disk & Partition Setup
+
+    *   Filesystem setup ([v]ftsab)
+
+    *   Network Link Speed
+
+    *   Keepalive on Solaris
+
+    *   Ipaddress on Windows
+
+    *   LVM / RAID / Metadevice
+
+BUGS
+    Please report any bugs or feature requests to
+    "bug-config-machineinfo@rt.cpan.org", or through the web interface at
+    <http://rt.cpan.org>. I will be notified, and then you'll automatically
+    be notified of progress on your bug as I make changes.
+
+AUTHOR
+    Sagar R. Shah, "<sagarshah@softhome.net>"
+
+COPYRIGHT & LICENSE
+    Copyright 2005 Sagar R. Shah, All Rights Reserved.
+
+    This program is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+

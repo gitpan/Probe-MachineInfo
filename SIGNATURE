@@ -14,12 +14,12 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 8ddce5c6421d1b946cb20d17cd264fa5dec8b157 Build.PL
+SHA1 02e55bd4c97311dcbefaa66a64ff0dd270aaa046 Build.PL
 SHA1 180b1bacbaf9dda9e67b74ab454b7c146f3797a9 Changes
 SHA1 7a09b35800f529356068a85bc2fc9430d6e2d8d6 MANIFEST
-SHA1 1d6d398fbacbf3f2a1cb47825c00905b54d002e7 META.yml
-SHA1 67298ebb545a2282aa53611e02ea6dda062dcfd5 README
-SHA1 b96bc40150f0e7275defddc29b163ee58446217d lib/Probe/MachineInfo.pm
+SHA1 b5195c3d80d8cc6724dc871ef169c5eda6aa6b81 META.yml
+SHA1 7ac9d3f323a0beb8e960c128adb1b46b2736c320 README
+SHA1 352e525dfa0d033e239ba5805ff2ecd4fb52fa05 lib/Probe/MachineInfo.pm
 SHA1 1039a511f41e3920b4db50542c90e63823769c18 lib/Probe/MachineInfo/ClockSpeed.pm
 SHA1 10ee9d73092470502b2bf709074d05d5fc1ea44b lib/Probe/MachineInfo/Distribution.pm
 SHA1 503e9c67813659d5373aa377ea7153895ab4c574 lib/Probe/MachineInfo/Hostid.pm
@@ -35,7 +35,7 @@ SHA1 a6a2aaa4d014e53d2103e7dcfb53c49c63cf9056 t/01_distribution.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.1 (GNU/Linux)
 
-iD8DBQFC5p+xbD1fM9M5ytIRArG4AKCzFgrbHrBPyhUoEFWyfV8DKtHmjwCffKyy
-ERbmyGpPGZAG9XXyUXZ/3GM=
-=zjJO
+iD8DBQFC/dr0bD1fM9M5ytIRAjc8AJ0V2CDUXqnYqmh+mwPH7bokmkYJvgCgv/eB
+ywwkXTNEZF7uvcLSk5yPKDU=
+=gRzh
 -----END PGP SIGNATURE-----

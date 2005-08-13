@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name: Probe-MachineInfo
-version: 0.04
+version: 0.05
 author:
   - Sagar R. Shah <sagarshah@softhome.net>
 abstract: The great new Probe::MachineInfo!
@@ -13,7 +13,7 @@ requires:
 provides:
   Probe::MachineInfo:
     file: lib/Probe/MachineInfo.pm
-    version: 0.04
+    version: 0.05
   Probe::MachineInfo::ClockSpeed:
     file: lib/Probe/MachineInfo/ClockSpeed.pm
   Probe::MachineInfo::Distribution:
