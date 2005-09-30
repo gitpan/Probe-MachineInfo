@@ -1,5 +1,10 @@
 Revision history for Probe-MachineInfo
 
+0.06    Linux::Distribution mentioned in Build.PL
+        test.perl script
+
+0.05    Non default README file
+
 0.04    Minor documentation fix.
         Thanks to Sébastien Aperghis-Tramoni (SAPER) for the spot
 

@@ -8,6 +8,7 @@ my $builder = Module::Build->new(
     dist_author         => 'Sagar R. Shah <sagarshah@softhome.net>',
     dist_version_from   => 'lib/Probe/MachineInfo.pm',
     requires => {
+			  'Linux::Distribution' => 0.11,
 			  'Proc::Reliable'   => 0,
 				'POSIX'            => 0,
         'Test::More'       => 0,

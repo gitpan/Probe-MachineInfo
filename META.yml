@@ -1,11 +1,12 @@
 --- #YAML:1.0
 name: Probe-MachineInfo
-version: 0.05
+version: 0.06
 author:
   - Sagar R. Shah <sagarshah@softhome.net>
 abstract: The great new Probe::MachineInfo!
 license: perl
 requires:
+  Linux::Distribution: 0.11
   POSIX: 0
   Proc::Reliable: 0
   Test::More: 0
@@ -13,7 +14,7 @@ requires:
 provides:
   Probe::MachineInfo:
     file: lib/Probe/MachineInfo.pm
-    version: 0.05
+    version: 0.06
   Probe::MachineInfo::ClockSpeed:
     file: lib/Probe/MachineInfo/ClockSpeed.pm
   Probe::MachineInfo::Distribution:

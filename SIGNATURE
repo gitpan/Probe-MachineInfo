@@ -14,12 +14,12 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 02e55bd4c97311dcbefaa66a64ff0dd270aaa046 Build.PL
-SHA1 180b1bacbaf9dda9e67b74ab454b7c146f3797a9 Changes
-SHA1 7a09b35800f529356068a85bc2fc9430d6e2d8d6 MANIFEST
-SHA1 b5195c3d80d8cc6724dc871ef169c5eda6aa6b81 META.yml
+SHA1 b29fd52a81e3c4fa6182a134ab7ee2080ea5208a Build.PL
+SHA1 5dfee1f0c7e20219553003b4409949a47337a0d4 Changes
+SHA1 84b742898d603224118ab53cd3bcec1ddee2368a MANIFEST
+SHA1 ea0125065d0dfe98b9e13c443dc5f268caf84fca META.yml
 SHA1 7ac9d3f323a0beb8e960c128adb1b46b2736c320 README
-SHA1 352e525dfa0d033e239ba5805ff2ecd4fb52fa05 lib/Probe/MachineInfo.pm
+SHA1 3cd7198eb1ac581ef4e0120d47d8c42e3a4551f3 lib/Probe/MachineInfo.pm
 SHA1 1039a511f41e3920b4db50542c90e63823769c18 lib/Probe/MachineInfo/ClockSpeed.pm
 SHA1 10ee9d73092470502b2bf709074d05d5fc1ea44b lib/Probe/MachineInfo/Distribution.pm
 SHA1 503e9c67813659d5373aa377ea7153895ab4c574 lib/Probe/MachineInfo/Hostid.pm
@@ -32,10 +32,11 @@ SHA1 4b9b9f3c7bd89df7da6596ee74066e914e344c8c lib/Probe/MachineInfo/OS.pm
 SHA1 385acae9d8934f1d1245c5d8be32470207737593 lib/Probe/MachineInfo/SimpleMetric.pm
 SHA1 a95c97c926fa754f4049c7102d487fd5713b6ce8 lib/Probe/MachineInfo/Uptime.pm
 SHA1 a6a2aaa4d014e53d2103e7dcfb53c49c63cf9056 t/01_distribution.t
+SHA1 e96e94f9aae6c68910b79b2c7b9d02053e4d6ac2 test.perl
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.1 (GNU/Linux)
 
-iD8DBQFC/dr0bD1fM9M5ytIRAjc8AJ0V2CDUXqnYqmh+mwPH7bokmkYJvgCgv/eB
-ywwkXTNEZF7uvcLSk5yPKDU=
-=gRzh
+iD8DBQFDPbhObD1fM9M5ytIRAi8KAJsFMsu2kDRrtqCKhS3UIQNIVNwZtACfTkMF
+Zjw68JbulvN8rF5A5mKJEc0=
+=zwnm
 -----END PGP SIGNATURE-----

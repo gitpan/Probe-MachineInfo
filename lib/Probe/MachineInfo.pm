@@ -10,7 +10,7 @@ Probe::MachineInfo - The great new Probe::MachineInfo!
 
 =cut
 
-$VERSION = '0.05';
+$VERSION = '0.06';
 
 =head1 SYNOPSIS
 

@@ -16,4 +16,5 @@ MANIFEST			This list of files
 META.yml
 README
 t/01_distribution.t
+test.perl
 SIGNATURE    Added here by Module::Build
