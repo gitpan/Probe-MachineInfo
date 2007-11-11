@@ -1,6 +1,6 @@
 =head1 NAME
 
-Probe::MachineInfo::IpAddress::Linux - Host ID
+Probe::MachineInfo::IpAddress - Ip Address
 
 =head1 SYNOPSIS
 
@@ -14,7 +14,7 @@ blah
 
 =cut
 
-package Probe::MachineInfo::IpAddress::Linux;
+package Probe::MachineInfo::IpAddress;
 
 
 # pragmata
@@ -23,7 +23,6 @@ use strict;
 use warnings;
 
 # Standard Perl Library and CPAN modules
-use English;
 
 #
 # CLASS ATTRIBUTES
@@ -36,7 +35,7 @@ use English;
 
 =head3 command
 
-/usr/bin/uptime
+/sbin/ifconfig -v
 
 =cut
 

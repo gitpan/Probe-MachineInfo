@@ -1,5 +1,7 @@
 Revision history for Probe-MachineInfo
 
+0.11    POD Updates
+
 0.06    Linux::Distribution mentioned in Build.PL
         test.perl script
 

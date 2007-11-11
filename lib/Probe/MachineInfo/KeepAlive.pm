@@ -1,6 +1,6 @@
 =head1 NAME
 
-Probe::MachineInfo::KeepAlive::Linux - Keepalive
+Probe::MachineInfo::KeepAlive - Keepalive
 
 =head1 SYNOPSIS
 
@@ -14,7 +14,7 @@ blah
 
 =cut
 
-package Probe::MachineInfo::KeepAlive::Linux;
+package Probe::MachineInfo::KeepAlive;
 
 
 # pragmata
@@ -24,7 +24,6 @@ use warnings;
 
 
 # Standard Perl Library and CPAN modules
-use English;
 
 #
 # CLASS ATTRIBUTES

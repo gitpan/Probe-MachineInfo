@@ -24,7 +24,6 @@ use warnings;
 
 
 # Standard Perl Library and CPAN modules
-use English;
 use Log::Log4perl;
 
 #

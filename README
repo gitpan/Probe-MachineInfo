@@ -22,6 +22,17 @@ SYNOPSIS
         my $foo = Probe::MachineInfo->new();
         ...
 
+SUPPORTED PLATFORMS
+    I'll support any platform that I have experience of, or which someone
+    will tell me is compatible with the existing code (e.g. another unix
+    variant) or which someone will give me a patch for and help me test.
+
+    *   Linux
+
+    *   Solaris
+
+    *   Microsoft Windows
+
 INSTALLATION
     This module uses Module::Build for its installation. To install this
     module type the following:
@@ -69,11 +80,17 @@ BUGS
     <http://rt.cpan.org>. I will be notified, and then you'll automatically
     be notified of progress on your bug as I make changes.
 
+SOURCE AVAILABILITY
+    This source is part of a SourceForge project which always has the latest
+    sources in svn.
+
+    http://sourceforge.net/projects/sagar-r-shah/
+
 AUTHOR
-    Sagar R. Shah, "<sagarshah@softhome.net>"
+    Sagar R. Shah
 
 COPYRIGHT & LICENSE
-    Copyright 2005 Sagar R. Shah, All Rights Reserved.
+    Copyright 2005-2007, Sagar R. Shah, All Rights Reserved.
 
     This program is free software; you can redistribute it and/or modify it
     under the same terms as Perl itself.

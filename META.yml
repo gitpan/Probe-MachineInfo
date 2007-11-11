@@ -1,10 +1,12 @@
---- #YAML:1.0
+---
 name: Probe-MachineInfo
-version: 0.06
+version: 0.11
 author:
-  - Sagar R. Shah <sagarshah@softhome.net>
+  - 'Sagar R. Shah <sagarshah@softhome.net>'
 abstract: The great new Probe::MachineInfo!
 license: perl
+resources:
+  license: http://dev.perl.org/licenses/
 requires:
   Linux::Distribution: 0.11
   POSIX: 0
@@ -14,7 +16,7 @@ requires:
 provides:
   Probe::MachineInfo:
     file: lib/Probe/MachineInfo.pm
-    version: 0.06
+    version: 0.11
   Probe::MachineInfo::ClockSpeed:
     file: lib/Probe/MachineInfo/ClockSpeed.pm
   Probe::MachineInfo::Distribution:
@@ -23,10 +25,10 @@ provides:
     file: lib/Probe/MachineInfo/Hostid.pm
   Probe::MachineInfo::Hostname:
     file: lib/Probe/MachineInfo/Hostname.pm
-  Probe::MachineInfo::IpAddress::Linux:
-    file: lib/Probe/MachineInfo/IpAddress/Linux.pm
-  Probe::MachineInfo::KeepAlive::Linux:
-    file: lib/Probe/MachineInfo/KeepAlive/Linux.pm
+  Probe::MachineInfo::IpAddress:
+    file: lib/Probe/MachineInfo/IpAddress.pm
+  Probe::MachineInfo::KeepAlive:
+    file: lib/Probe/MachineInfo/KeepAlive.pm
   Probe::MachineInfo::Metric:
     file: lib/Probe/MachineInfo/Metric.pm
   Probe::MachineInfo::NumCPUs:
@@ -37,4 +39,7 @@ provides:
     file: lib/Probe/MachineInfo/SimpleMetric.pm
   Probe::MachineInfo::Uptime:
     file: lib/Probe/MachineInfo/Uptime.pm
-generated_by: Module::Build version 0.2609
+generated_by: Module::Build version 0.2808
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2

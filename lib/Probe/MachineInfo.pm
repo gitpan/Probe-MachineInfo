@@ -10,8 +10,10 @@ Probe::MachineInfo - The great new Probe::MachineInfo!
 
 =cut
 
-$VERSION = '0.06';
+$VERSION = '0.11';
 
+
+1;
 =head1 SYNOPSIS
 
 Probe::MachineInfo aims to be a set of collector/probe classes which allow the
@@ -33,6 +35,26 @@ Perhaps a little code snippet.
 
     my $foo = Probe::MachineInfo->new();
     ...
+
+=head1 SUPPORTED PLATFORMS
+
+I'll support any platform that I have experience of, or which someone will tell me is compatible with the existing code (e.g. another unix variant) or which someone will give me a patch for and help me test.
+
+=over 4
+
+=item *
+
+Linux
+
+=item *
+
+Solaris
+
+=item *
+
+Microsoft Windows
+
+=back
 
 =head1 INSTALLATION
 
@@ -116,17 +138,22 @@ C<bug-config-machineinfo@rt.cpan.org>, or through the web interface at
 L<http://rt.cpan.org>.  I will be notified, and then you'll automatically
 be notified of progress on your bug as I make changes.
 
+=head1 SOURCE AVAILABILITY
+
+This source is part of a SourceForge project which always has the
+latest sources in svn.
+
+http://sourceforge.net/projects/sagar-r-shah/
+
 =head1 AUTHOR
 
-Sagar R. Shah, C<< <sagarshah@softhome.net> >>
+Sagar R. Shah
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright 2005 Sagar R. Shah, All Rights Reserved.
+Copyright 2005-2007, Sagar R. Shah, All Rights Reserved.
 
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
 
 =cut
-
-1;
